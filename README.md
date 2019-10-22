@@ -5,9 +5,13 @@ Select important text/words in sentence sequences(documents).
 
 By proposing a new NLP sequence processing deep learning framework.
 
+(Implement by TF2.0)
+
 ## Dataset
 * The 20 newsgroups text dataset: http://qwone.com/~jason/20Newsgroups/
 * 20news-bydate.tar.gz - 20 Newsgroups sorted by date; duplicates and some headers removed (18846 documents)
+
+* Reuters dataset in Keras https://keras.io/datasets/ 、 https://keras.io/examples/reuters_mlp/
 
 ### Preprocessing REF
 * https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
