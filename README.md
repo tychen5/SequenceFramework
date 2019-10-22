@@ -17,19 +17,19 @@ By proposing a new NLP sequence processing deep learning framework.
 * end2end
 
 ### Module1: Embedding
-* Possible method: BERT / learnable...
+* Possible method: BERT / learnable layer...
 
 ### Module2: Filtering
 * loss: sum of weights/scores
 * Possible method: self-attention/LSTM/GRU
 * activation function: gumble softmax/hard_sigmoid
-* optimizer:
-* Output: only binary / weight score
+* optimizer: Adam/Nadam/RMSprop
+* Output: only binary(by rounded) / weight score
 
-### Module3: Compressing (Optional)
-* only pick 1 or score higher
 
-### Module4: Classifier
+
+### Module3: Classifier
+* input: multiply of Module2 output and Module1 output
 * loss: categorical cross entropy loss
 * Possible method: self-attention/LSTM/GRU/CNN
-* optimizer: 
+* optimizer: Adam/Nadam/RMSprop
