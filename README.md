@@ -39,16 +39,16 @@ far_out	| 540.000000
 90%	| 315.000000
 100%	| 2376.000000
 
-    * (diagram in results/: length_dist_diagram.xlsx)
-    * pick max length = oulier (360)
+   * (diagram in results/: length_dist_diagram.xlsx)
+   * pick max length = oulier = 360
 
 * all words #: 30979
     * words frequency diagram in results/: words_dist_diagram.xlsx
-    * pick 6000 words (count>=6)
+    * pick 8352 words (count>=10)
 
 
-* 80% for training: 8248 train sequences
-* 20% for testing: 2063 test sequences
+* 80% for training: 8260 train sequences
+* 20% for testing: 2066 test sequences
 
 ### Preprocessing REF
 * https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html
