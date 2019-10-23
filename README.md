@@ -12,7 +12,41 @@ By proposing a new NLP sequence processing deep learning framework.
 * 20news-bydate.tar.gz - 20 Newsgroups sorted by date; duplicates and some headers removed (18846 documents)
 ### Reuters dataset (baseline model)
 * Reuters dataset in Keras https://keras.io/datasets/ 、 https://keras.io/examples/reuters_mlp/
+
+Dataset Length Distribution:
+
+Statistics    | Value
+--------------|------------
+mean	| 145.964197
+std	| 145.878476
+mode	| 17.000000
+min	| 2.000000
+q1	| 60.000000
+median	| 95.000000
+q3	| 180.000000
+max	| 2376.000000
+iqr	| 120.000000
+outlier	| 360.000000
+far_out	| 540.000000
+10%	| 35.000000
+20%	| 53.000000
+30%	| 67.000000
+40%	| 81.000000
+50%	| 95.000000
+60%	| 112.000000
+70%	| 154.000000
+80%	| 206.000000
+90%	| 315.000000
+100%	| 2376.000000
+
+    * (diagram in results/: length_dist_diagram.xlsx)
+    * pick max length = oulier (360)
+
 * all words #: 30979
+    * words frequency diagram in results/: words_dist_diagram.xlsx
+    * pick 6000 words (count>=6)
+
+
 * 80% for training: 8248 train sequences
 * 20% for testing: 2063 test sequences
 
