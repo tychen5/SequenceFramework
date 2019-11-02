@@ -1,0 +1,2 @@
+01canttrained_code.py: 只要是0 1都不可以train(clf只輸入0 1或是0 1 mul emb)。只有weight train得起來
+01cant_withembcan.ipynb: 如果只放0 1進去，不呈上emb會train不起來clf。但如果乘上emb就可以train起來。有emb的one#值會往上，但沒有的話one#會卡住。
