@@ -70,6 +70,8 @@ far_out	| 540.000000
 * acc_rate: accuracy in classification
   
 ***
+### Below Deprecated
+Possible solutions:
 ### Module1: Embedding
 * Possible method: BERT / learnable layer...
 
