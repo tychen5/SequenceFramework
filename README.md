@@ -56,7 +56,20 @@ far_out	| 540.000000
 ## Framework
 * MTL(2 optimizers)?weighted loss(1 optmizer)?
 * end2end
-
+### model1: Embedder + (Encoder) + Filter
+* Input: ID of words (int)
+* Output: embedding vectors(float32, tensors) & **filter**(float32, tensors)
+    * round filter to binary number (0 or 1) => **filter2**
+* loss1(alpha): mean of filter
+* loss3(gamma): consecutive of filter2
+* ones_num: numbers of 1's portion
+### model2: Classifier
+* Input: embedding vectors & filter2 
+* Output: **classID**
+* loss2(beta): categorical cross entropy of classID
+* acc_rate: accuracy in classification
+  
+***
 ### Module1: Embedding
 * Possible method: BERT / learnable layer...
 
