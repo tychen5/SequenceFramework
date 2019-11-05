@@ -61,13 +61,14 @@ far_out	| 540.000000
 * hidden_dim
 * init_w、init_b
 * activation function slope: portion
-* model1 arch.、model2 arch
+* model1 arch.、model2 arch.
 * batch_size
 * loss seq: seq_num
 * optimizer
 * weighted loss: alpha、beta、gamma
 * input weight or binary: pred_imp or pred_imp2
 * epochs
+detail link: https://docs.google.com/spreadsheets/d/1iSLUaFhr27HRi2YB8bPCeuOCmBx18nkiCAKWk4Fg8JA/edit#gid=0
 ### model1: Embedder + (Encoder) + Filter
 * Input: ID of words (int)
 * Output: embedding vectors(float32, tensors) & **filter**(float32, tensors)
