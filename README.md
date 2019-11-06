@@ -7,6 +7,8 @@ By proposing a new NLP sequence processing deep learning framework.
 
 (Implement by TF2.0)
 
+Models: https://drive.google.com/drive/u/1/folders/1DOpFaLUaYyzTBgLqVcjgUwfI33m5frQK
+
 ## 20 newsgroups Dataset
 * The 20 newsgroups text dataset: http://qwone.com/~jason/20Newsgroups/
 * 20news-bydate.tar.gz - 20 Newsgroups sorted by date; duplicates and some headers removed (18846 documents)
