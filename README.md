@@ -13,7 +13,7 @@ Models: https://drive.google.com/drive/u/1/folders/1DOpFaLUaYyzTBgLqVcjgUwfI33m5
 * The 20 newsgroups text dataset: http://qwone.com/~jason/20Newsgroups/
 * 20news-bydate.tar.gz - 20 Newsgroups sorted by date; duplicates and some headers removed (18846 documents)
 ### Reuters dataset (baseline model)
-* Reuters dataset in Keras https://keras.io/datasets/ 、 https://keras.io/examples/reuters_mlp/
+* Reuters dataset in Keras https://keras.io/datasets/ 、 https://keras.io/examples/reuters_mlp/ 、 https://github.com/nltk/nltk_data/tree/gh-pages/packages/corpora
 
 Dataset Length Distribution:
 
@@ -69,7 +69,7 @@ far_out	| 540.000000
 * optimizer
 * weighted loss: alpha、beta、gamma
 * input weight or binary: pred_imp or pred_imp2
-* epochs
+* Experiments parameters
 detail link: https://docs.google.com/spreadsheets/d/1iSLUaFhr27HRi2YB8bPCeuOCmBx18nkiCAKWk4Fg8JA/edit#gid=0
 ### model1: Embedder + (Encoder) + Filter
 * Input: ID of words (int)
