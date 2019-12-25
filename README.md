@@ -7,7 +7,9 @@ By proposing a new NLP sequence processing deep learning framework.
 
 (Implement by TF2.0)
 
-Models: https://drive.google.com/drive/u/1/folders/1DOpFaLUaYyzTBgLqVcjgUwfI33m5frQK
+Models/data: https://drive.google.com/drive/u/1/folders/1DOpFaLUaYyzTBgLqVcjgUwfI33m5frQK
+* one-hot encoding training.csv (A tri-gram is represented by 1377-dim vectors. Each profile has 182 tri-grams, including padding. Last column is the label.)
+* one-hot encoding testing.csv
 
 ## 20 newsgroups Dataset
 * The 20 newsgroups text dataset: http://qwone.com/~jason/20Newsgroups/
