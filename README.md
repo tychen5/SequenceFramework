@@ -85,6 +85,23 @@ detail link: https://docs.google.com/spreadsheets/d/1iSLUaFhr27HRi2YB8bPCeuOCmBx
 * Output: **classID**
 * loss2(beta): categorical cross entropy of classID
 * acc_rate: accuracy in classification
+
+## Functions, Records & Statistics
+### losses_metrics.xlsx
+* Train / Test family classify loss of each epoch
+* Train / Test filter loss of each epoch、可調整希望模型1越多或是0越多、可調整已weight輸入或以binary輸入
+* Train / Test sequence loss of each epoch、可調整連續之windows size (越低代表越連續)
+* Train / Test accuracy of each epoch
+* Train / Test 1's number of each epoch
+* Train / Test each class' average intra-cosine-similarity of embedding vectors of each epoch
+* Train / Test each class' average intra-cosine-similarity after Filter module of each epoch
+* Train / Test inter-classes' cosine-similarity of embedding vectors of each epoch
+* Train / Test inter-classes' cosine-simlarity after Filter module of each epoch
+### caseStudy_result.xlsx
+* Original input text of each testing data in each epoch
+* After Filter module's text of each testing data in each epoch
+* True label of each testing data in each epoch
+* Predicted label of each testing data in each epoch
   
 ***
 ### Below Deprecated
